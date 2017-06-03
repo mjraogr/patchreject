@@ -1,0 +1,21 @@
+*** DialogFragment.smali	2017-05-05 01:41:48.369055915 -0300
+--- DialogFragment.smali	2017-05-05 01:40:16.867336096 -0300
+***************
+*** 421,426 ****
+      return-void
+  
+      :cond_1
+      invoke-virtual {p0}, Landroid/app/DialogFragment;->getView()Landroid/view/View;
+  
+      move-result-object v1
+--- 421,430 ----
+      return-void
+  
+      :cond_1
++     iget-object v2, p0, Landroid/app/DialogFragment;->mDialog:Landroid/app/Dialog;
++ 
++     if-eqz v2, :cond_0
++ 
+      invoke-virtual {p0}, Landroid/app/DialogFragment;->getView()Landroid/view/View;
+  
+      move-result-object v1

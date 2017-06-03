@@ -1,0 +1,19 @@
+*** CallLog$Calls.smali	2017-05-05 01:41:28.832683676 -0300
+--- CallLog$Calls.smali	2017-05-05 01:39:57.402978480 -0300
+***************
+*** 149,155 ****
+  .end method
+  
+  .method public static addCall(Lcom/android/internal/telephony/CallerInfo;Landroid/content/Context;Ljava/lang/String;IIJI)Landroid/net/Uri;
+!     .locals 16
+      .param p0, "ci"    # Lcom/android/internal/telephony/CallerInfo;
+      .param p1, "context"    # Landroid/content/Context;
+      .param p2, "number"    # Ljava/lang/String;
+--- 155,161 ----
+  .end method
+  
+  .method public static addCall(Lcom/android/internal/telephony/CallerInfo;Landroid/content/Context;Ljava/lang/String;IIJI)Landroid/net/Uri;
+!     .locals 9
+      .param p0, "ci"    # Lcom/android/internal/telephony/CallerInfo;
+      .param p1, "context"    # Landroid/content/Context;
+      .param p2, "number"    # Ljava/lang/String;

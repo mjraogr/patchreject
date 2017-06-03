@@ -1,0 +1,21 @@
+*** ChooseTypeAndAccountActivity.smali	2017-05-05 01:41:26.420637900 -0300
+--- ChooseTypeAndAccountActivity.smali	2017-05-05 01:39:54.986934306 -0300
+***************
+*** 1037,1042 ****
+      .local v4, "accountType":Ljava/lang/String;
+      if-eqz v4, :cond_5
+  
+      invoke-virtual {p0, v4}, Landroid/accounts/ChooseTypeAndAccountActivity;->runAddAccountForAuthenticator(Ljava/lang/String;)V
+  
+      goto :goto_1
+--- 1037,1046 ----
+      .local v4, "accountType":Ljava/lang/String;
+      if-eqz v4, :cond_5
+  
++     const/4 v11, 0x1
++ 
++     iput v11, p0, Landroid/accounts/ChooseTypeAndAccountActivity;->mPendingRequest:I
++ 
+      invoke-virtual {p0, v4}, Landroid/accounts/ChooseTypeAndAccountActivity;->runAddAccountForAuthenticator(Ljava/lang/String;)V
+  
+      goto :goto_1

@@ -1,0 +1,22 @@
+*** BackupAgent.smali	2017-05-05 01:41:45.565002329 -0300
+--- BackupAgent.smali	2017-05-05 01:40:14.067284462 -0300
+***************
+*** 1164,1169 ****
+  
+      invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+  
+      const-string v2, "f"
+  
+      move-object/from16 v0, p5
+--- 1194,1204 ----
+  
+      invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+  
++     if-nez p1, :cond_miui_00
++ 
++     return-void
++ 
++     :cond_miui_00
+      const-string v2, "f"
+  
+      move-object/from16 v0, p5

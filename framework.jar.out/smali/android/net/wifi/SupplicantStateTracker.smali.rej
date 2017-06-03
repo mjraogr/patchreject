@@ -1,0 +1,63 @@
+*** SupplicantStateTracker.smali	2017-05-05 01:41:36.688833052 -0300
+--- SupplicantStateTracker.smali	2017-05-05 01:40:05.275122743 -0300
+***************
+*** 407,413 ****
+  .end method
+  
+  .method private handleNetworkConnectionFailure(II)V
+!     .locals 1
+      .param p1, "netId"    # I
+      .param p2, "disableReason"    # I
+  
+--- 407,413 ----
+  .end method
+  
+  .method private handleNetworkConnectionFailure(II)V
+!     .locals 2
+      .param p1, "netId"    # I
+      .param p2, "disableReason"    # I
+  
+***************
+*** 429,434 ****
+  
+      invoke-virtual {v0, p1, p2}, Landroid/net/wifi/WifiConfigStore;->disableNetwork(II)Z
+  
+      return-void
+  .end method
+  
+--- 429,444 ----
+  
+      invoke-virtual {v0, p1, p2}, Landroid/net/wifi/WifiConfigStore;->disableNetwork(II)Z
+  
++     iget-object v0, p0, Landroid/net/wifi/SupplicantStateTracker;->mContext:Landroid/content/Context;
++ 
++     iget-object v1, p0, Landroid/net/wifi/SupplicantStateTracker;->mWifiConfigStore:Landroid/net/wifi/WifiConfigStore;
++ 
++     invoke-virtual {v1}, Landroid/net/wifi/WifiConfigStore;->getConfiguredNetworks()Ljava/util/List;
++ 
++     move-result-object v1
++ 
++     invoke-static {v0, v1, p1}, Landroid/net/wifi/SupplicantStateTrackerInjector;->handleNetworkConnectionFailure(Landroid/content/Context;Ljava/util/List;I)V
++ 
+      return-void
+  .end method
+  
+***************
+*** 663,665 ****
+  
+      return-void
+  .end method
+--- 673,685 ----
+  
+      return-void
+  .end method
++ 
++ .method static synthetic access_mAuthenticationFailuresCount(Landroid/net/wifi/SupplicantStateTracker;)I
++     .locals 1
++     .param p0, "x0"    # Landroid/net/wifi/SupplicantStateTracker;
++ 
++     .prologue
++     iget v0, p0, Landroid/net/wifi/SupplicantStateTracker;->mAuthenticationFailuresCount:I
++ 
++     return v0
++ .end method

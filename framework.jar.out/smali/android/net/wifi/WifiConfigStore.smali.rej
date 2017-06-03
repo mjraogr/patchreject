@@ -1,0 +1,28 @@
+*** WifiConfigStore.smali	2017-05-05 01:41:36.476829016 -0300
+--- WifiConfigStore.smali	2017-05-05 01:40:05.055118704 -0300
+***************
+*** 5289,5294 ****
+      .locals 6
+  
+      .prologue
+      const/4 v2, 0x0
+  
+      .local v2, "networkEnabledStateChanged":Z
+--- 5309,5325 ----
+      .locals 6
+  
+      .prologue
++     iget-object v3, p0, Landroid/net/wifi/WifiConfigStore;->mWifiAutoConnController:Landroid/net/wifi/WifiAutoConnController;
++ 
++     invoke-virtual {v3}, Landroid/net/wifi/WifiAutoConnController;->shouldEnableAllNetworks()Z
++ 
++     move-result v3
++ 
++     if-nez v3, :cond_miui_0
++ 
++     return-void
++ 
++     :cond_miui_0
+      const/4 v2, 0x0
+  
+      .local v2, "networkEnabledStateChanged":Z

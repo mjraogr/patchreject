@@ -1,0 +1,24 @@
+*** TextView.smali	2017-05-05 01:41:01.452166453 -0300
+--- TextView.smali	2017-05-05 01:39:30.062481483 -0300
+***************
+*** 20120,20132 ****
+  
+      iput-object v0, p0, Landroid/widget/TextView;->mTextDir:Landroid/text/TextDirectionHeuristic;
+  
+-     iget-object v0, p0, Landroid/widget/TextView;->mLayout:Landroid/text/Layout;
+- 
+-     if-eqz v0, :cond_0
+- 
+-     invoke-direct {p0}, Landroid/widget/TextView;->checkForRelayout()V
+- 
+-     :cond_0
+      return-void
+  .end method
+  
+--- 20124,20129 ----
+  
+      iput-object v0, p0, Landroid/widget/TextView;->mTextDir:Landroid/text/TextDirectionHeuristic;
+  
+      return-void
+  .end method
+  
