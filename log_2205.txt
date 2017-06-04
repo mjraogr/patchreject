@@ -1,0 +1,481 @@
+--------- beginning of /dev/log/main
+I/rmt_storage(  138): rmt_storage user app start.. ignoring cmd line parameters
+I/rmt_storage(  138): rmt_storage open success
+--------- beginning of /dev/log/system
+I/auditd  (  140): Starting up
+I/rmt_storage(  138): 3 supported partitions found
+I/debuggerd_miui(  142): add service shelld success!
+I/debuggerd_miui(  142): add service su_daemon success!
+I/debuggerd_miui(  142): add service debuggerd success!
+I/debuggerd_miui(  142): add service tunman success!
+I/debuggerd_miui(  142): add service fdpp success!
+W/debuggerd_miui(  142): service start entry  'shelld', flag :0
+W/debuggerd_miui(  142): starting 'shelld'
+W/debuggerd_miui(  142): service start entry  'su_daemon', flag :2
+W/debuggerd_miui(  142): starting 'su_daemon'
+W/debuggerd_miui(  142): service start entry  'debuggerd', flag :0
+W/debuggerd_miui(  142): starting 'debuggerd'
+W/debuggerd_miui(  142): service start entry  'fdpp', flag :0
+W/debuggerd_miui(  142): starting 'fdpp'
+I/Vold    (  135): Vold 2.1 (the revenge) firing up
+D/Vold    (  135): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  135): Volume sdcard1 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+I/cm      (  149): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+I/installd(  148): installd firing up
+I/cm      (  189): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/cm      (  191): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/cm      (  197): Welcome to Android 4.4.4 / CyanogenMod-11-20160723-UNOFFICIAL-i8552 
+I/DEBUG   (  171): debuggerd: Jul 23 2016 14:35:06
+E/LBE-Sec (  162): daemon bind failed with 98: Address already in use
+I/gpu_dcvs(  176): <main:471>: gpu_dcvs starting
+W/gpu_dcvs(  176): <init_config:257>: failed to open config file, using defaults
+I/tzdata_updater(  209): /data/misc/zoneinfo/tzdata not exist, aborting 
+E/mm-camera(  170): qcamsvr_start: old_mode = 3f
+I/Netd    (  141): Netd 1.0 starting
+E/        (  165): property_get ro.confg.hw_appsbootversion fail len=0
+E/        (  165): property_get ro.confg.hw_appversion fail len=0
+E/        (  165): property_get ro.confg.hw_appfsversion fail len=0
+W/libc    (  164): WARNING: generic atexit() called from legacy shared library
+I/gpu_dcvs(  176): <query_pwr_levels:140>: GPU is Adreno 203
+I/gpu_dcvs(  176): <query_pwr_levels:179>: dcvs->num_levels:3
+I/gpu_dcvs(  176): <query_pwr_levels:180>: dcvs->min_samples:50
+I/gpu_dcvs(  176): <query_pwr_levels:181>: dcvs->perf_down:10000
+I/gpu_dcvs(  176): <query_pwr_levels:182>: dcvs->perf_up:6000
+I/gpu_dcvs(  176): <query_pwr_levels:183>: dcvs->busy_timer:40000
+I/gpu_dcvs(  176): <query_pwr_levels:184>: dcvs->levels[index]:400000000
+I/gpu_dcvs(  176): <query_pwr_levels:185>: dcvs->levels[index]:320000000
+I/SurfaceFlinger(  144): SurfaceFlinger is starting
+I/SurfaceFlinger(  144): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+E/CAMERA FRAME_PROC(  170): FRAME_PROC_comp_create: FRAME_PROC_comp_create success
+E/mm-camera(  170): qcamsvr_load_gesture_lib Error opening gesture library
+E/mm-camera(  170): Cannot init Gesture library
+D/libEGL  (  144): loaded /system/lib/egl/libEGL_adreno200.so
+I/        (  236): BCCMD Main
+I/        (  236): try bcsp open!!!!!!!!!!!
+D/libEGL  (  144): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  (  144): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/Adreno200-EGL(  144): <qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_2.0.3.04.01.02.21.119_msm8625_JB_REL_2.0.3_CL3357771_release_AU (CL3357771)
+I/Adreno200-EGL(  144): Build Date: 04/04/13 Thu
+I/Adreno200-EGL(  144): Local Branch: 
+I/Adreno200-EGL(  144): Remote Branch: m/jb_rel_2.0.3
+I/Adreno200-EGL(  144): Local Patches: NONE
+I/Adreno200-EGL(  144): Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_2.0.3.04.01.02.21.119 +  NOTHING
+I/bccmd   (  230): Loading PSKEY_LC_MAX_TX_POWER ... done
+I/bccmd   (  230): Loading 0x03a1 ... done
+I/bccmd   (  230): Loading PSKEY_DEEP_SLEEP_USE_EXTERNAL_CLOCK ... done
+I/bccmd   (  230): Loading 0x20ee ... done
+W/gralloc (  144): MSMFB_METADATA_SET failed to configure alpha mode
+I/bccmd   (  230): Loading 0x210d ... done
+I/gralloc (  144): using (fd=15)
+I/gralloc (  144): id           = msmfb303_80201
+I/gralloc (  144): xres         = 480 px
+I/gralloc (  144): yres         = 800 px
+I/gralloc (  144): xres_virtual = 480 px
+I/gralloc (  144): yres_virtual = 2400 px
+I/gralloc (  144): bpp          = 32
+I/gralloc (  144): r            = 24:8
+I/gralloc (  144): g            = 16:8
+I/gralloc (  144): b            =  8:8
+I/gralloc (  144): width        = 76 mm (160.421051 dpi)
+I/gralloc (  144): height       = 127 mm (160.000000 dpi)
+I/gralloc (  144): refresh rate = 60.00 Hz
+D/CALCFPS (  144): DEBUG_CALC_FPS: 0
+D/CALCFPS (  144): period: 10
+D/CALCFPS (  144): ignorethresh_us: 500000
+D/CALCFPS (  144): DEBUG_CALC_FPS: 0
+D/CALCFPS (  144): period: 10
+D/CALCFPS (  144): ignorethresh_us: 500000
+I/bccmd   (  230): Loading 0x2127 ... done
+I/bccmd   (  230): Loading 0x212c ... done
+I/bccmd   (  230): Loading 0x212d ... done
+D/overlay (  144): initoverlay:: opening the device:: /dev/graphics/fb0
+E/overlay (  144): ERROR: MSMFB_MIXER_INFO ioctl failed
+D/overlay (  144): initoverlay:: opening the device:: /dev/graphics/fb1
+I/hwcomposer(  144): Initializing Qualcomm Hardware Composer
+I/hwcomposer(  144): MDP version: 303
+I/hwcomposer(  144): DYN composition threshold : 1.900000
+I/hwcomposer(  144): hwc_device_open: Hardware VSYNC supported
+I/SurfaceFlinger(  144): Using composer version 0.3
+I/hwcomposer(  144): Initializing UEvent Listener Thread
+I/hwcomposer(  144): Initializing VSYNC Thread
+W/SurfaceFlinger(  144): getting VSYNC period from fb HAL: 16666666
+W/Adreno200-EGL(  144): <qeglDrvAPI_eglChooseConfig:785>: EGL_BAD_ATTRIBUTE
+W/Adreno200-EGL(  144): <qeglDrvAPI_eglChooseConfig:785>: EGL_BAD_ATTRIBUTE
+W/SurfaceFlinger(  144): no suitable EGLConfig found, trying a simpler query
+I/SurfaceFlinger(  144): EGL informations:
+I/SurfaceFlinger(  144): vendor    : Android
+I/SurfaceFlinger(  144): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  144): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+I/SurfaceFlinger(  144): Client API: OpenGL_ES
+I/SurfaceFlinger(  144): EGLSurface: 8-8-8-8, config=0x4
+I/bccmd   (  230): Loading 0x212e ... done
+I/bccmd   (  230): Loading 0x212f ... done
+I/bccmd   (  230): Loading 0x2130 ... done
+I/bccmd   (  230): Loading 0x2131 ... done
+I/bccmd   (  230): Loading 0x2132 ... done
+I/SurfaceFlinger(  144): OpenGL ES informations:
+I/SurfaceFlinger(  144): vendor    : Qualcomm
+I/SurfaceFlinger(  144): renderer  : Adreno (TM) 203
+I/SurfaceFlinger(  144): version   : OpenGL ES 2.0 V@6.0 AU@04.01.02.21.119 (CL@3357771)
+I/SurfaceFlinger(  144): extensions: GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic 
+I/SurfaceFlinger(  144): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  144): GL_MAX_VIEWPORT_DIMS = 4096
+D/SurfaceFlinger(  144): Screen acquired, type=0 flinger=0x40077008
+I/bccmd   (  230): Loading 0x2134 ... done
+I/bccmd   (  230): Loading 0x2135 ... done
+W/SurfaceFlinger(  144): Ignoring duplicate VSYNC event from HWC (t=9095451669)
+I/bccmd   (  230): Loading 0x2138 ... done
+I/bccmd   (  230): Loading 0x2139 ... done
+I/bccmd   (  230): Loading 0x213a ... done
+I/mediaserver(  147): ServiceManager: 0x41b33538
+I/AudioFlinger(  147): Using default 3000 mSec as standby time.
+E/MediaPlayerFactory(  147): calling dlopen on FACTORY_LIB
+I/bccmd   (  230): Loading 0x213b ... done
+I/bccmd   (  230): Loading 0x218f ... done
+E/MediaPlayerFactory(  147): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory(  147): registering DASH Player factory...
+I/CameraService(  147): CameraService started (pid=147)
+I/bccmd   (  230): Loading 0x21a0 ... done
+I/bccmd   (  230): Loading 0x21ad ... done
+I/bccmd   (  230): Loading 0x21ae ... done
+I/bccmd   (  230): Loading 0x21f4 ... done
+I/bccmd   (  230): Loading 0x2201 ... done
+I/bccmd   (  230): Loading 0x2206 ... done
+I/bccmd   (  230): Loading 0x220c ... done
+I/bccmd   (  230): Loading 0x2213 ... done
+I/bccmd   (  230): Loading 0x2215 ... done
+I/bccmd   (  230): Loading 0x2216 ... done
+I/bccmd   (  230): Loading 0x2217 ... done
+I/bccmd   (  230): Loading 0x2218 ... done
+I/bccmd   (  230): Loading 0x221b ... done
+I/bccmd   (  230): Loading 0x2221 ... done
+I/bccmd   (  230): Loading 0x2222 ... done
+I/bccmd   (  230): Loading 0x2232 ... done
+I/bccmd   (  230): Loading 0x2236 ... done
+V/NatController(  141): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+D/libEGL  (  324): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  (  324): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+I/ServiceManager(  134): service 'media.audio_flinger' died
+I/ServiceManager(  134): service 'media.player' died
+I/bccmd   (  230): Loading 0x2245 ... done
+D/libEGL  (  324): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/Adreno200-EGL(  324): <qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_2.0.3.04.01.02.21.119_msm8625_JB_REL_2.0.3_CL3357771_release_AU (CL3357771)
+I/Adreno200-EGL(  324): Build Date: 04/04/13 Thu
+I/Adreno200-EGL(  324): Local Branch: 
+I/Adreno200-EGL(  324): Remote Branch: m/jb_rel_2.0.3
+I/Adreno200-EGL(  324): Local Patches: NONE
+I/Adreno200-EGL(  324): Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_2.0.3.04.01.02.21.119 +  NOTHING
+I/bccmd   (  230): Loading 0x2246 ... done
+I/bccmd   (  230): Loading 0x2247 ... done
+I/bccmd   (  230): Loading 0x2248 ... done
+I/bccmd   (  230): Loading 0x2249 ... done
+I/bccmd   (  230): Loading 0x224a ... done
+W/libc    (  177): WARNING: generic atexit() called from legacy shared library
+W/libc    (  143): WARNING: generic atexit() called from legacy shared library
+I/bccmd   (  230): Loading 0x224b ... done
+I/bccmd   (  230): Loading 0x224c ... done
+I/bccmd   (  230): Loading 0x22ec ... done
+I/bccmd   (  230): Loading 0x230d ... done
+I/bccmd   (  230): Loading 0x241a ... done
+I/bccmd   (  230): Loading 0x2175 ... done
+I/bccmd   (  230): Loading PSKEY_LOCAL_SUPPORTED_FEATURES ... done
+I/bccmd   (  230): Loading 0x23de ... done
+I/bccmd   (  230): Loading 0x20da ... done
+I/bccmd   (  230): Loading 0x20e3 ... done
+I/bccmd   (  230): Loading PSKEY_BDADDR ... done
+I/bccmd   (  230): Loading PSKEY_ANA_FREQ ... done
+I/bccmd   (  230): Loading PSKEY_HOST_INTERFACE ... done
+I/bccmd   (  230): Loading 0x01ea ... done
+I/shelld  (  161): ServiceManager: 0x405dc398
+I/shelld  (  160): ServiceManager: 0x41d942b8
+E/ServiceManager(  134): add_service('miui.shell',0x8) uid=1000 - ALREADY REGISTERED, OVERRIDE
+I/ServiceManager(  134): service 'miui.shell' died
+I/bccmd   (  230): Loading PSKEY_UART_CONFIG_BCSP ... done
+I/bccmd   (  230): Loading 0x20dc ... done
+I/bccmd   (  230): Loading 0x20dd ... done
+I/bccmd   (  230): Loading PSKEY_VM_DISABLE ... done
+I/bccmd   (  230): Loading 0x210e ... done
+I/bccmd   (  230): Loading 0x01de ... done
+I/bccmd   (  230): Loading 0x01dc ... done
+I/bccmd   (  230): Loading 0x2126 ... done
+I/bccmd   (  230): Loading PSKEY_WD_TIMEOUT ... done
+I/bccmd   (  230): Loading PSKEY_PCM_CONFIG32 ... done
+I/bccmd   (  230): Loading PSKEY_PCM_FORMAT ... done
+I/bccmd   (  230): Loading PSKEY_LM_TEST_SEND_ACCEPTED_TWICE ... done
+I/bccmd   (  230): Loading PSKEY_LC_DEFAULT_TX_POWER ... done
+I/bccmd   (  230): Loading PSKEY_DEEP_SLEEP_STATE ... done
+I/bccmd   (  230): Loading PSKEY_CLOCK_REQUEST_ENABLE ... done
+I/bccmd   (  230): Loading PSKEY_UART_HOST_WAKE_SIGNAL ... done
+I/bccmd   (  230): Loading PSKEY_UART_HOST_WAKE ... done
+I/bccmd   (  230): Loading PSKEY_LC_COMBO_DOT11_CHANNEL_PIO_BASE ... done
+I/bccmd   (  230): Loading 0x005c ... done
+I/bccmd   (  230): Loading PSKEY_LC_COMBO_DISABLE_PIO_MASK ... done
+I/bccmd   (  230): Read default bdaddr
+I/bccmd   (  230): Writing Bluetooth Address to PSKey done
+I/        (  236): Warmreset done.
+I/        (  236): [BCCMD]command done. CSR_TRANSPORT_BCSP
+I/        (  236): [BCCMD]transport_close done. CSR_TRANSPORT_BCSP
+I/        (  236): Launch HCI.
+I/        (  236): [BCCMD]start hciattach done.
+I/bccmd   (  230): transport_close done.
+I/CSR7820 (  440): : bccmd init port....done 
+I/hciattach(  441): [hciattach] Shy state. Send sync.
+I/hciattach(  441): [hciattach] Curious state. Send Conf.
+I/hciattach(  441): [hciattach] Garrulous state.
+I/hciattach(  441): Device setup complete
+I/hciattach(  441): 447
+I/CSR7820 (  448): : hci attached to : /dev/ttyHS0 
+I/Netd    (  453): Netd 1.0 starting
+W/libc    (  164): WARNING: generic atexit() called from legacy shared library
+W/libc    (  164): WARNING: generic atexit() called from legacy shared library
+W/libc    (  164): WARNING: generic atexit() called from legacy shared library
+I/Netd    (  518): Netd 1.0 starting
+I/Netd    (  551): Netd 1.0 starting
+I/Netd    (  591): Netd 1.0 starting
+I/Netd    (  630): Netd 1.0 starting
+I/Netd    (  666): Netd 1.0 starting
+I/Netd    (  701): Netd 1.0 starting
+I/Netd    (  740): Netd 1.0 starting
+I/Netd    (  777): Netd 1.0 starting
+I/Netd    (  815): Netd 1.0 starting
+I/Netd    (  853): Netd 1.0 starting
+I/Netd    (  896): Netd 1.0 starting
+I/Netd    (  932): Netd 1.0 starting
+I/Netd    (  969): Netd 1.0 starting
+I/Netd    ( 1008): Netd 1.0 starting
+I/rmt_storage(  138): rmt_storage open event: handle=1
+I/rmt_storage(  138): Opened /boot/modem_fs1
+I/rmt_storage(  138): rmt_storage events processing done
+I/rmt_storage(  138): rmt_storage send user data event
+I/rmt_storage(  138): rmt_storage events processing done
+I/rmt_storage(  138): rmt_storage open event: handle=2
+I/rmt_storage(  138): Opened /boot/modem_fs2
+I/rmt_storage(  138): rmt_storage events processing done
+I/rmt_storage(  138): rmt_storage send user data event
+I/rmt_storage(  138): rmt_storage events processing done
+I/rmt_storage(  138): rmt_storage write event
+I/rmt_storage(  138): rmt_storage events processing done
+I/rmt_storage(  138): rmt_storage client thread started 
+I/rmt_storage(  138): rmt_storage client thread started 
+I/rmt_storage(  138): rmt_storage fop(1): bytes transferred = 3145216
+I/rmt_storage(  138): rmt_storage fop(1): bytes transferred = 512
+I/Netd    ( 1045): Netd 1.0 starting
+I/Netd    ( 1083): Netd 1.0 starting
+I/Netd    ( 1119): Netd 1.0 starting
+I/Netd    ( 1155): Netd 1.0 starting
+I/Netd    ( 1191): Netd 1.0 starting
+I/Netd    ( 1230): Netd 1.0 starting
+I/Netd    ( 1268): Netd 1.0 starting
+I/Netd    ( 1303): Netd 1.0 starting
+I/Netd    ( 1339): Netd 1.0 starting
+I/Netd    ( 1376): Netd 1.0 starting
+I/Netd    ( 1414): Netd 1.0 starting
+I/Netd    ( 1452): Netd 1.0 starting
+I/Netd    ( 1488): Netd 1.0 starting
+I/Netd    ( 1523): Netd 1.0 starting
+I/Netd    ( 1564): Netd 1.0 starting
+I/Netd    ( 1600): Netd 1.0 starting
+I/Netd    ( 1637): Netd 1.0 starting
+I/Netd    ( 1674): Netd 1.0 starting
+I/Netd    ( 1709): Netd 1.0 starting
+I/Netd    ( 1746): Netd 1.0 starting
+I/Netd    ( 1783): Netd 1.0 starting
+I/Netd    ( 1819): Netd 1.0 starting
+I/Netd    ( 1856): Netd 1.0 starting
+I/Netd    ( 1891): Netd 1.0 starting
+I/Netd    ( 1925): Netd 1.0 starting
+I/Netd    ( 1962): Netd 1.0 starting
+I/Netd    ( 2000): Netd 1.0 starting
+I/Netd    ( 2037): Netd 1.0 starting
+I/Netd    ( 2071): Netd 1.0 starting
+I/Netd    ( 2108): Netd 1.0 starting
+I/Netd    ( 2145): Netd 1.0 starting
+I/Netd    ( 2179): Netd 1.0 starting
+I/Netd    ( 2217): Netd 1.0 starting
+I/Netd    ( 2251): Netd 1.0 starting
+I/Netd    ( 2292): Netd 1.0 starting
+I/Netd    ( 2328): Netd 1.0 starting
+I/Netd    ( 2365): Netd 1.0 starting
+I/Netd    ( 2403): Netd 1.0 starting
+I/Netd    ( 2439): Netd 1.0 starting
+I/Netd    ( 2475): Netd 1.0 starting
+I/Netd    ( 2514): Netd 1.0 starting
+I/Netd    ( 2549): Netd 1.0 starting
+I/Netd    ( 2586): Netd 1.0 starting
+I/Netd    ( 2631): Netd 1.0 starting
+I/Netd    ( 2668): Netd 1.0 starting
+I/Netd    ( 2705): Netd 1.0 starting
+I/Netd    ( 2743): Netd 1.0 starting
+I/Netd    ( 2778): Netd 1.0 starting
+I/Netd    ( 2813): Netd 1.0 starting
+I/Netd    ( 2850): Netd 1.0 starting
+I/Netd    ( 2884): Netd 1.0 starting
+I/Netd    ( 2924): Netd 1.0 starting
+I/Netd    ( 2960): Netd 1.0 starting
+I/Netd    ( 3000): Netd 1.0 starting
+I/Netd    ( 3039): Netd 1.0 starting
+I/Netd    ( 3077): Netd 1.0 starting
+I/Netd    ( 3110): Netd 1.0 starting
+I/Netd    ( 3146): Netd 1.0 starting
+I/Netd    ( 3182): Netd 1.0 starting
+I/Netd    ( 3229): Netd 1.0 starting
+I/Netd    ( 3267): Netd 1.0 starting
+I/mediaserver( 3269): ServiceManager: 0x404c9288
+I/AudioFlinger( 3269): Using default 3000 mSec as standby time.
+E/MediaPlayerFactory( 3269): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 3269): calling dlsym on pFactoryLib for FACTORY_CREATE_FN 
+E/MediaPlayerFactory( 3269): registering DASH Player factory...
+I/CameraService( 3269): CameraService started (pid=3269)
+I/ServiceManager(  134): service 'media.audio_flinger' died
+I/ServiceManager(  134): service 'media.player' died
+I/Netd    ( 3321): Netd 1.0 starting
+I/Netd    ( 3362): Netd 1.0 starting
+I/Netd    ( 3399): Netd 1.0 starting
+I/Netd    ( 3437): Netd 1.0 starting
+I/Netd    ( 3474): Netd 1.0 starting
+I/Netd    ( 3509): Netd 1.0 starting
+I/Netd    ( 3546): Netd 1.0 starting
+I/Netd    ( 3582): Netd 1.0 starting
+I/Netd    ( 3627): Netd 1.0 starting
+I/Netd    ( 3664): Netd 1.0 starting
+I/Netd    ( 3698): Netd 1.0 starting
+I/Netd    ( 3738): Netd 1.0 starting
+I/Netd    ( 3776): Netd 1.0 starting
+I/Netd    ( 3800): Netd 1.0 starting
+I/Netd    ( 3835): Netd 1.0 starting
+I/Netd    ( 3871): Netd 1.0 starting
+I/Netd    ( 3907): Netd 1.0 starting
+I/Netd    ( 3947): Netd 1.0 starting
+I/Netd    ( 3982): Netd 1.0 starting
+I/Netd    ( 4020): Netd 1.0 starting
+I/Netd    ( 4055): Netd 1.0 starting
+I/Netd    ( 4091): Netd 1.0 starting
+I/Netd    ( 4128): Netd 1.0 starting
+I/Netd    ( 4165): Netd 1.0 starting
+I/Netd    ( 4208): Netd 1.0 starting
+I/Netd    ( 4246): Netd 1.0 starting
+I/Netd    ( 4280): Netd 1.0 starting
+I/Netd    ( 4316): Netd 1.0 starting
+I/Netd    ( 4354): Netd 1.0 starting
+I/Netd    ( 4387): Netd 1.0 starting
+I/Netd    ( 4422): Netd 1.0 starting
+I/Netd    ( 4457): Netd 1.0 starting
+I/Netd    ( 4495): Netd 1.0 starting
+I/Netd    ( 4531): Netd 1.0 starting
+I/Netd    ( 4564): Netd 1.0 starting
+I/Netd    ( 4602): Netd 1.0 starting
+I/Netd    ( 4638): Netd 1.0 starting
+I/Netd    ( 4676): Netd 1.0 starting
+I/Netd    ( 4714): Netd 1.0 starting
+I/Netd    ( 4752): Netd 1.0 starting
+I/Netd    ( 4789): Netd 1.0 starting
+I/Netd    ( 4826): Netd 1.0 starting
+I/mediaserver( 4828): ServiceManager: 0x40321288
+I/AudioFlinger( 4828): Using default 3000 mSec as standby time.
+E/MediaPlayerFactory( 4828): calling dlopen on FACTORY_LIB
+I/ServiceManager(  134): service 'media.audio_flinger' died
+I/Netd    ( 4878): Netd 1.0 starting
+I/Netd    ( 4912): Netd 1.0 starting
+I/Netd    ( 4950): Netd 1.0 starting
+I/Netd    ( 4988): Netd 1.0 starting
+I/Netd    ( 5023): Netd 1.0 starting
+I/Netd    ( 5058): Netd 1.0 starting
+I/Netd    ( 5093): Netd 1.0 starting
+I/Netd    ( 5127): Netd 1.0 starting
+I/Netd    ( 5167): Netd 1.0 starting
+I/Netd    ( 5202): Netd 1.0 starting
+I/Netd    ( 5239): Netd 1.0 starting
+I/Netd    ( 5277): Netd 1.0 starting
+I/Netd    ( 5313): Netd 1.0 starting
+I/Netd    ( 5349): Netd 1.0 starting
+I/Netd    ( 5384): Netd 1.0 starting
+I/Netd    ( 5420): Netd 1.0 starting
+I/Netd    ( 5456): Netd 1.0 starting
+I/Netd    ( 5489): Netd 1.0 starting
+I/Netd    ( 5525): Netd 1.0 starting
+I/Netd    ( 5562): Netd 1.0 starting
+I/Netd    ( 5598): Netd 1.0 starting
+I/Netd    ( 5633): Netd 1.0 starting
+I/Netd    ( 5671): Netd 1.0 starting
+I/Netd    ( 5708): Netd 1.0 starting
+I/Netd    ( 5744): Netd 1.0 starting
+I/Netd    ( 5778): Netd 1.0 starting
+I/Netd    ( 5816): Netd 1.0 starting
+I/Netd    ( 5858): Netd 1.0 starting
+I/Netd    ( 5894): Netd 1.0 starting
+I/Netd    ( 5927): Netd 1.0 starting
+I/Netd    ( 5962): Netd 1.0 starting
+I/Netd    ( 5999): Netd 1.0 starting
+I/Netd    ( 6033): Netd 1.0 starting
+I/Netd    ( 6069): Netd 1.0 starting
+I/Netd    ( 6101): Netd 1.0 starting
+I/Netd    ( 6137): Netd 1.0 starting
+I/Netd    ( 6172): Netd 1.0 starting
+I/Netd    ( 6205): Netd 1.0 starting
+I/Netd    ( 6242): Netd 1.0 starting
+I/Netd    ( 6277): Netd 1.0 starting
+I/Netd    ( 6315): Netd 1.0 starting
+I/Netd    ( 6352): Netd 1.0 starting
+I/Netd    ( 6390): Netd 1.0 starting
+I/Netd    ( 6428): Netd 1.0 starting
+I/Netd    ( 6465): Netd 1.0 starting
+I/Netd    ( 6502): Netd 1.0 starting
+I/Netd    ( 6537): Netd 1.0 starting
+I/Netd    ( 6575): Netd 1.0 starting
+I/Netd    ( 6611): Netd 1.0 starting
+I/Netd    ( 6646): Netd 1.0 starting
+I/Netd    ( 6682): Netd 1.0 starting
+I/Netd    ( 6719): Netd 1.0 starting
+I/Netd    ( 6753): Netd 1.0 starting
+I/Netd    ( 6791): Netd 1.0 starting
+I/Netd    ( 6827): Netd 1.0 starting
+I/Netd    ( 6863): Netd 1.0 starting
+I/Netd    ( 6895): Netd 1.0 starting
+I/Netd    ( 6930): Netd 1.0 starting
+I/Netd    ( 6966): Netd 1.0 starting
+I/Netd    ( 7000): Netd 1.0 starting
+I/Netd    ( 7035): Netd 1.0 starting
+I/Netd    ( 7069): Netd 1.0 starting
+I/Netd    ( 7105): Netd 1.0 starting
+I/Netd    ( 7142): Netd 1.0 starting
+I/Netd    ( 7181): Netd 1.0 starting
+I/Netd    ( 7216): Netd 1.0 starting
+I/Netd    ( 7253): Netd 1.0 starting
+I/Netd    ( 7289): Netd 1.0 starting
+I/Netd    ( 7327): Netd 1.0 starting
+I/Netd    ( 7364): Netd 1.0 starting
+I/Netd    ( 7402): Netd 1.0 starting
+I/Netd    ( 7441): Netd 1.0 starting
+I/Netd    ( 7478): Netd 1.0 starting
+I/Netd    ( 7515): Netd 1.0 starting
+I/Netd    ( 7552): Netd 1.0 starting
+I/Netd    ( 7589): Netd 1.0 starting
+I/Netd    ( 7628): Netd 1.0 starting
+I/Netd    ( 7663): Netd 1.0 starting
+I/Netd    ( 7698): Netd 1.0 starting
+I/Netd    ( 7735): Netd 1.0 starting
+I/Netd    ( 7770): Netd 1.0 starting
+I/Netd    ( 7806): Netd 1.0 starting
+I/Netd    ( 7840): Netd 1.0 starting
+I/Netd    ( 7878): Netd 1.0 starting
+I/Netd    ( 7913): Netd 1.0 starting
+I/Netd    ( 7947): Netd 1.0 starting
+I/Netd    ( 7985): Netd 1.0 starting
+I/Netd    ( 8021): Netd 1.0 starting
+I/Netd    ( 8058): Netd 1.0 starting
+I/Netd    ( 8097): Netd 1.0 starting
+I/Netd    ( 8142): Netd 1.0 starting
+I/Netd    ( 8180): Netd 1.0 starting
+I/Netd    ( 8215): Netd 1.0 starting
+I/Netd    ( 8251): Netd 1.0 starting
+I/Netd    ( 8287): Netd 1.0 starting
+I/Netd    ( 8324): Netd 1.0 starting
+I/Netd    ( 8359): Netd 1.0 starting
+I/Netd    ( 8394): Netd 1.0 starting
+I/Netd    ( 8433): Netd 1.0 starting
+I/Netd    ( 8467): Netd 1.0 starting
+I/Netd    ( 8503): Netd 1.0 starting
+I/Netd    ( 8538): Netd 1.0 starting
+I/Netd    ( 8571): Netd 1.0 starting
+I/Netd    ( 8606): Netd 1.0 starting
+I/Netd    ( 8642): Netd 1.0 starting
